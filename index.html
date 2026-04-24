@@ -82,16 +82,14 @@
                         </ul>
                     </div>
                     <div class="caixaOpcional">
-
                         <ul class="listaOpcionais">
                             <li>
                                 <input type="checkbox" name="opcional[]" id="assistente-pista" value="assistente-pista">
                                 <label for="assistente-pista">Assistente de Pista</label>
                             </li>
                             <li>
-                                <input type="checkbox" name="opcional[]" id="partida-sem-chave"
-                                    value="partida-sem-chave">
-                                <label for="partida-sem-chave">Partida sem Chave</label>
+                                <input type="checkbox" name="opcional[]" id="partidaSemChave" value="partidaSemChave">
+                                <label for="partidaSemChave">Partida sem Chave</label>
                             </li>
                             <li>
                                 <input type="checkbox" name="opcional[]" id="smartphone" value="smartphone">
@@ -105,7 +103,7 @@
                     </div>
                     <div class="caixaInputs">
                         <p>Fotos do carro <span class="campo-obrigatorio">*</span></p>
-                        <input type="file" name="images" id="images" multiple accept="image/png, image/jpg">
+                        <input type="file" name="imagem" id="imagem" multiple accept="image/png, image/jpg" required>
                     </div>
                     <input type="submit" value="Enviar" class="btn-submit">
                 </form>
