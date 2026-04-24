@@ -27,3 +27,8 @@ function salvarCarros(event) {
 
     document.querySelector("form").reset();
 }
+
+function adicionarNaTela(carro) {
+    let lista = document.getElementById('listarCarros');
+    let card = document.createElement
+}
